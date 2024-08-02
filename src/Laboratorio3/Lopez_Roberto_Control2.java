@@ -33,11 +33,14 @@ public class Lopez_Roberto_Control2 {
                 if(usuario==computadora){
                     System.out.println("Es un Empate");
                     
-                 } else if ((usuario == 1&& computadora == 3) ||
-                           (usuario == 2 && computadora == 1) ||
-                           (usuario == 3 && computadora == 2)) {
-                    System.out.println("Ganaste");
-                    
+           if (usuario == 1 && computadora == 3) {
+                System.out.println("Ganaste");
+                } else if (usuario == 2 && computadora == 1) {
+                 System.out.println("Ganaste");
+                } else if (usuario == 3 && computadora == 2) {
+                 System.out.println("Ganaste");
+}
+                            
         }else{
                      System.out.println("Fin del juego");
                      
